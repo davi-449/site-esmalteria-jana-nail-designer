@@ -3,17 +3,27 @@
 @tailwind utilities;
 
 @layer utilities {
-  .glass {
-    @apply bg-white/10 backdrop-blur-lg border border-white/20 shadow-xl;
+  .glass-panel {
+    @apply bg-white/40 backdrop-blur-md border border-white/40 shadow-glass;
   }
-  .glass-dark {
-    @apply bg-black/40 backdrop-blur-xl border border-white/10 shadow-2xl;
+  .glass-panel-dark {
+    @apply bg-slate-900/40 backdrop-blur-md border border-white/10 shadow-glass;
   }
   .text-gradient {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-brand-600 to-brand-400;
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-rosegold-700 to-rosegold-400;
   }
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6, .font-heading {
+  font-family: 'Syne', sans-serif;
 }
