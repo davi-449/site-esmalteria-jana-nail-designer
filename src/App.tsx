@@ -46,7 +46,7 @@ export default function App() {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-r from-brand-bg via-brand-bg/90 to-transparent z-10"></div>
           <img 
-            src="https://image.pollinations.ai/prompt/luxurious%20nail%20salon%20interior%20rose%20gold%20details%20warm%20lighting%208k%20photorealistic%20cinematic?width=1920&height=1080&nologo=true" 
+            src="/images/img_1.jpg" 
             alt="Interior Esmalteria" 
             className="w-full h-full object-cover object-right"
           />
@@ -122,7 +122,7 @@ export default function App() {
             >
               <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl">
                 <img 
-                  src="https://image.pollinations.ai/prompt/beautiful%20elegant%20female%20nail%20designer%20in%20a%20luxury%20salon%20smiling%20professional%208k%20photorealistic?width=800&height=1000&nologo=true" 
+                  src="/images/img_2.jpg" 
                   alt="Jana Nail Designer" 
                   className="w-full h-full object-cover"
                 />
@@ -173,7 +173,7 @@ export default function App() {
       <section className="py-24 bg-brand-dark text-white relative overflow-hidden">
         <div className="absolute inset-0 opacity-20">
            <img 
-              src="https://image.pollinations.ai/prompt/abstract%20flowing%20liquid%20gold%20dark%20background%20luxury%20texture%208k?width=1920&height=1080&nologo=true" 
+              src="/images/img_3.jpg" 
               alt="Textura Luxo" 
               className="w-full h-full object-cover"
             />
@@ -218,7 +218,7 @@ export default function App() {
               {
                 title: "Alongamento em Fibra",
                 desc: "Estrutura natural, fina e ultra resistente. O formato perfeito e duradouro.",
-                img: "https://image.pollinations.ai/prompt/close%20up%20perfect%20fiberglass%20nail%20extensions%20nude%20color%20luxury%20manicure%208k%20photorealistic?width=800&height=800&nologo=true"
+                img: "/images/img_4.jpg"
               },
               {
                 title: "Esmaltação em Gel",
@@ -419,3 +419,4 @@ export default function App() {
     </div>
   );
 }
+
