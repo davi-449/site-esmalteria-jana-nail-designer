@@ -2,28 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-  .glass-panel {
-    @apply bg-white/40 backdrop-blur-md border border-white/40 shadow-glass;
-  }
-  .glass-panel-dark {
-    @apply bg-slate-900/40 backdrop-blur-md border border-white/10 shadow-glass;
-  }
-  .text-gradient {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-rosegold-700 to-rosegold-400;
+@layer base {
+  html {
+    scroll-behavior: smooth;
   }
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-h1, h2, h3, h4, h5, h6, .font-heading {
-  font-family: 'Syne', sans-serif;
+.glass-panel {
+  @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-glass;
 }
