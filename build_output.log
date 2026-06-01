@@ -1,0 +1,13 @@
+
+> esmalteria-jana@0.0.0 build
+> vite build
+
+[36mvite v5.4.21 [32mbuilding for production...[36m[39m
+transforming...
+[32m✓[39m 1826 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[32mindex.html                 [39m[1m[2m  0.84 kB[22m[1m[22m[2m │ gzip:  0.49 kB[22m
+[2mdist/[22m[35massets/index-FioBgSRH.css  [39m[1m[2m 22.01 kB[22m[1m[22m[2m │ gzip:  4.22 kB[22m
+[2mdist/[22m[36massets/index-Dh6Howoy.js   [39m[1m[2m274.19 kB[22m[1m[22m[2m │ gzip: 88.15 kB[22m
+[32m✓ built in 13.09s[39m
